@@ -20,8 +20,8 @@ public class CoursePanel {
 		while(dataSet.next()) {
 			
 			String courseID = dataSet.getString("id");		
-			if(!(courseID.substring(courseID.indexOf(".")+1)).equals("0") || courseID.indexOf(".") == -1) continue;	// is made and that is what these lines of code parse and look for to get course buttons.
-			Button course = new Button(courseID.substring(0, courseID.indexOf(".")));	// Each notes is identified by course#.note# ex. 4434.07, when a course is created a placeholder note 4434.0
+			if(!(courseID.substring(courseID.indexOf(".")+1)).equals("0") || courseID.indexOf(".") == -1) continue;	// Each notes is identified by course#.note# ex. 4434.07, when a course is created a placeholder note 4434.0
+			Button course = new Button(courseID.substring(0, courseID.indexOf(".")));	// is made and that is what these lines of code parse and look for to get course buttons.
 			
 			course.setPrefWidth(75);
 			course.setPrefHeight(30);
