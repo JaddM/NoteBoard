@@ -4,7 +4,7 @@ TECHNICAL SKILLS APPLIED:
 - Used object-oriented programming and Java
 - Learned to use JavaFx (Java GUI Library)
 - Learned to adjust navigation, visuals for a better user-experience
-
+- Used SQL to store notes
 - //
 ![picture](screenshots/noteboard.jpg)
 ![picture](screenshots/notecard.jpg)
